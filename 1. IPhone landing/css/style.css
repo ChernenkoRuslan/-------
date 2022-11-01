@@ -1,0 +1,138 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #0A0A0A;
+}
+
+.header{
+    background-color: #0A0A0A;
+    padding: 33px 0 32px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #717171;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.phone{
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+}
+
+.menu-item{
+    padding-right: 30px;
+}
+
+.headline{
+    background-color: #F5F5F7;
+    text-align: center;
+    padding: 70px 0 40px;
+}
+
+.title{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #490E84;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.headline-img{
+    margin-bottom: 25px;
+}
+
+.headline-btn{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFF;
+    background: #490E84;
+    padding: 22px 117px 19px;
+    border-radius: 30px;
+}
+
+.news{
+    padding: 90px 0 150px;
+}
+
+.news-title, .color-title{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 39px;
+    color: #717171;
+    text-align: center;
+    padding: 0 0 50px;
+}
+
+.news-info{
+    display: flex;
+}
+
+.news-text p{
+    max-width: 560px;
+    font-size: 20px;
+    line-height: 26px;
+    display: block;
+}
+
+.news-text b{
+    max-width: 560px;
+    font-size: 20px;
+    line-height: 26px;
+    display: block;
+}
+
+.news-img{
+    margin-left: 191px;
+    height: 370px;
+    width: 350px;
+    border-radius: 0px;
+}
+
+.color{
+    padding-bottom: 150px;
+}
+
+color-item{
+    display: flex;
+}
+
+.color-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}

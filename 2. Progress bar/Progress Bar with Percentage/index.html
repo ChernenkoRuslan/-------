@@ -5,34 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\style.css">
-    <script src="main.js"></script>
+
     <title>Document</title>
 </head>
 
-<script src="main.js"></script>
-
-<script>
-    const progressContainer = document.querySelector('.progress-container');
-
-// initial call
-setPercentage();
-
-function setPercentage() {
-  const percentage = progressContainer.getAttribute('data-percentage') + '%';
-  
-  const progressEl = progressContainer.querySelector('.progress');
-  const percentageEl = progressContainer.querySelector('.percentage');
-  
-  progressEl.style.width = percentage;
-  percentageEl.innerText = percentage;
-  percentageEl.style.left = percentage;
-}
-</script>
-
 <body>
-    <div class="progress-container" data-percentage='80'>
-        <div class="progress"></div>
-        <div class="percentage">0%</div>
-      </div>
+  <section class="container">
+    <div class="progress-container" data-percentage='10'>
+      <div class="progress"></div>
+      <div class="percentage">0%</div>
+    </div>
+  </section>
+  
+  <section class="forms">
+    <div class="forms">
+      <form name="form1">
+      <input type="text" name="aa"><br>
+      <input type="radio" name="aa"><br>
+      <input type="checkbox" name="bb"><br>
+      <input type="password" name="aa"><br>
+      <input type="submit" name="aa"><br>
+    </div>
+  </section>
+
+     
 </body>
+<script>
+  const progressContainer = document.querySelector('.progress-container');
+
+    // initial call
+    setPercentage();
+
+    function setPercentage() {
+      const percentage = progressContainer.getAttribute('data-percentage') + '%';
+      
+      const progressEl = progressContainer.querySelector('.progress');
+      const percentageEl = progressContainer.querySelector('.percentage');
+      
+      progressEl.style.width = percentage;
+      percentageEl.innerText = percentage;
+      percentageEl.style.left = percentage;
+    }
+</script>
 </html>

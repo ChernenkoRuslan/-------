@@ -3,7 +3,7 @@
   }
   
   body {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
@@ -55,4 +55,9 @@
     height: 10px;
     width: 10px;
     z-index: -1;
+  }
+
+  .forms{
+    display: block;
+    padding:50px;
   }
